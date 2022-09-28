@@ -705,7 +705,7 @@ namespace RPGFlightmare
 
     void instantiateObjects()
     {
-      config_object.ReadCSVFile(internal_state, settings.object_csv, ListToVector3(settings.render_offset));
+      // config_object.ReadCSVFile(internal_state, settings.object_csv, ListToVector3(settings.render_offset));
       // 
       // Initialize additional objects
       foreach (var obj_state in settings.static_objects)
