@@ -67,6 +67,7 @@ sysinfo.txt
 /Binary
 /Assets/Apartment
 /Assets/NonPubAssets*
+/Assets/GAMMA
 NoPubObj/
 .ply
 pointcloud_data/
