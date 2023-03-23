@@ -56,12 +56,12 @@ namespace RPGFlightmare
   public class ConfigObjects : MonoBehaviour
   {
 
-    // private StaticObject static_object;
+    private StaticObject static_object;
     // Start is called before the first frame update
     void Start()
     {
-      // DontDestroyOnLoad(this.gameObject);
-      // static_object = new StaticObject();
+      DontDestroyOnLoad(this.gameObject);
+      static_object = new StaticObject();
       // ReadCSVFile();
     }
 
